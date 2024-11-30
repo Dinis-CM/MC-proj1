@@ -21,7 +21,7 @@ end
 
 varNames = cell(1, length(x_n)-1);
 for i = 1:length(x_n)-1
-    varNames{i} = sprintf('x_%.0f', i);
+    varNames{i} = sprintf('|e_%.0f|/|e_%.0f|^p', i, i-1);
 end
 
 table = array2table(K, 'VariableNames', varNames, 'RowNames', rowNames);

@@ -41,3 +41,5 @@ end
  
 % Remoção de espaços relativos a iteradas não calculadas
 x_n = x_n(1:i+1);
+
+end
